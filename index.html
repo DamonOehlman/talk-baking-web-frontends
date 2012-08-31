@@ -1,0 +1,225 @@
+<!doctype html>  
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>HTML5 Messaging</title>
+
+<meta name="description" content="An easy to use CSS 3D slideshow tool for quickly creating good looking HTML presentations.">
+<meta name="author" content="Hakim El Hattab">
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/highlight.zenburn.css" /><script src="js/jquery.min.js"></script><script src="js/head.min.js"></script><link rel="stylesheet" type="text/css" href="css/main.css" /><link rel="stylesheet" type="text/css" href="css/theme/default.css" /><link rel="stylesheet" type="text/css" href="css/reveal-tweaks.css" /><link rel="stylesheet" type="text/css" href="css/bgimage-helper.css" />
+</head>
+<body>
+<div class="reveal">
+	<!-- Used to fade in a background when a specific slide state is reached -->
+	<div class="state-background"></div>
+	
+	<!-- Any section element inside of this container is displayed as a slide -->
+	<div class="slides">
+	    
+        <section >
+        	<h1>Baking Web Frontends</h1>
+<h2>from Tasty Recipes</h2>
+
+
+
+        </section>
+        
+        <section >
+        	<h1>So Many Potential Ingredients</h1>
+
+
+
+        </section>
+        
+        <section >
+        	<h1>Scaffolding is a Dirty Word</h1>
+<h2>in my opinion</h2>
+
+
+
+        </section>
+        
+        <section >
+        	<h3>Boilerplates are helpful</h3>
+<h3>But make things less expressive</h3>
+<pre><code class="lang-html">&lt;!DOCTYPE html&gt;
+&lt;!--[if lt IE 7]&gt;&lt;html class=&quot;no-js lt-ie9 lt-ie8 lt-ie7&quot;&gt;&lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;&lt;html class=&quot;no-js lt-ie9 lt-ie8&quot;&gt;&lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;&lt;html class=&quot;no-js lt-ie9&quot;&gt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt; &lt;html class=&quot;no-js&quot;&gt;&lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/normalize.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/main.css&quot;&gt;
+&lt;script src=&quot;js/vendor/modernizr-2.6.1.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!--[if lt IE 7]&gt;
+&lt;p class=&quot;chromeframe&quot;&gt;You are using an outdated browser. &lt;a href=&quot;http://browsehappy.com/&quot;&gt;Upgrade your browser today&lt;/a&gt; or &lt;a href=&quot;http://www.google.com/chromeframe/?redirect=true&quot;&gt;install Google Chrome Frame&lt;/a&gt; to better experience this site.&lt;/p&gt;
+&lt;![endif]--&gt;
+
+&lt;!-- Add your site or application content here --&gt;
+&lt;p&gt;Hello world! This is HTML5 Boilerplate.&lt;/p&gt;
+
+&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;window.jQuery || document.write(&#39;&lt;script src=&quot;js/vendor/jquery-1.8.0.min.js&quot;&gt;&lt;\/script&gt;&#39;)&lt;/script&gt;
+&lt;script src=&quot;js/plugins.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Google Analytics: change UA-XXXXX-X to be your site&#39;s ID. --&gt;
+&lt;script&gt;
+var _gaq=[[&#39;_setAccount&#39;,&#39;UA-XXXXX-X&#39;],[&#39;_trackPageview&#39;]];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=(&#39;https:&#39;==location.protocol?&#39;//ssl&#39;:&#39;//www&#39;)+&#39;.google-analytics.com/ga.js&#39;;
+s.parentNode.insertBefore(g,s)}(document,&#39;script&#39;));
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+
+
+        </section>
+        
+        <section >
+        	<h3>Wouldn&#39;t it be nice to write just the code you need</h3>
+<h3>and hide the other stuff away</h3>
+<pre><code class="lang-html">&lt;!-- Add your site or application content here --&gt;
+&lt;p&gt;Hello world! This is HTML5 Boilerplate.&lt;/p&gt;</code></pre>
+
+
+
+        </section>
+        
+        <section >
+        	<h1>Alternatives to Scaffolding</h1>
+<h2>use a build process</h2>
+<h2>tooling with recipes</h2>
+
+
+
+        </section>
+        
+        <section >
+        	<h1>Recipes</h1>
+<h2>What might they</h2>
+<h2>look like?</h2>
+
+
+
+        </section>
+        
+        <section >
+        	<h2>Recipe Files</h2>
+<p>Maybe files that sit along side your HTML files might work?
+
+
+</p>
+<pre><code class="lang-html">&lt;header&gt;
+    &lt;h1&gt;Test&lt;/h1&gt;
+&lt;/header&gt;</code></pre>
+<pre><code>use: h5bp, eve
+use: google-analytics(code=UA-XXXXX-X)</code></pre>
+
+
+
+        </section>
+        
+        <section >
+        	<h2>Some &quot;Pretend&quot; HTML Tags</h2>
+<pre><code class="lang-html">&lt;use&gt;h5bp&lt;/use&gt;
+&lt;use&gt;eve&lt;/use&gt;
+&lt;use code=&quot;UA-XXXXX-X&quot;&gt;google-analytics&lt;/use&gt;
+&lt;header&gt;
+    &lt;h1&gt;Test&lt;/h1&gt;
+&lt;/header&gt;</code></pre>
+
+
+
+        </section>
+        
+        <section >
+        	<h2>Then we merge?</h2>
+<h3>HTML, Snippets, etc</h3>
+<p>Experimental Library: <a href="https://github.com/DamonOehlman/htmlmerge">htmlmerge</a>
+
+
+</p>
+<p><em>This doesn&#39;t <strong>yet</strong> implement the functionality that I&#39;m proposing here, but it can take 2+ html fragments and push them together and produce optimized output.</em>
+
+
+</p>
+
+
+
+        </section>
+        
+        <section >
+        	<h1>And We&#39;re Done</h1>
+<p>This is an idea I&#39;m going to explore over the next little while, so feel free to hit me up on <a href="http://twitter.com/DamonOehlman">twitter</a> with ideas, disagreements, etc.  Also, code is on <a href="https://github.com/DamonOehlman">github</a> so if you interested let me know and I&#39;ll keep you up to date :)
+
+
+
+
+
+</p>
+
+
+
+        </section>
+        
+	</div>
+
+	<!-- The navigational controls UI -->
+	<aside class="controls">
+		<a class="left" href="#">&#x25C4;</a>
+		<a class="right" href="#">&#x25BA;</a>
+		<a class="up" href="#">&#x25B2;</a>
+		<a class="down" href="#">&#x25BC;</a>
+	</aside>
+
+	<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+	<div class="progress"><span></span></div>
+</div>
+<script src="js/highlight.js"></script><script>hljs.initHighlightingOnLoad();</script><script src="js/reveal.js"></script><script src="js/bgimage-helper.js"></script>
+<script>
+	// Parse the query string into a key/value object
+	var query = {};
+	location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+		query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+	} );
+
+	Reveal.initialize({
+		// Display controls in the bottom right corner
+		controls: true,
+
+		// Display a presentation progress bar
+		progress: true,
+
+		// If true; each slide will be pushed to the browser history
+		history: true,
+
+		// Loops the presentation, defaults to false
+		loop: false,
+
+		// Flags if mouse wheel navigation should be enabled
+		mouseWheel: true,
+
+		// Apply a 3D roll to links on hover
+		rollingLinks: true,
+
+		// UI style
+		theme: query.theme || 'default', // default/neon
+
+		// Transition style
+		transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+	});
+</script>
+</body>
+</html>

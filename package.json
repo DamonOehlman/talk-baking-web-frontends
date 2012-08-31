@@ -1,0 +1,26 @@
+{
+  "name": "talk-baking-front-ends",
+  "description": "Talk on some different angles for building web frontends",
+  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
+  "tags": [ "html5" ],
+  "version": "0.1.0",
+  "private": "true",
+
+  "devDependencies": {
+    "boxit": "0.3.x"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DamonOehlman/talk-html5-messaging.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DamonOehlman/talk-html5-messaging/issues"
+  },
+
+  "scripts": {
+    "generate": "./node_modules/.bin/boxit --path src --output ."
+  },
+  
+  "contributors": []
+}

@@ -1,0 +1,31 @@
+{
+    "title": "HTML5 Messaging",
+    "template": "reveal.js",
+    "extras": [],
+    
+    "sources": [
+        "files/intro.md",
+        "files/ingredients.md",
+        "files/scaffolding.md",
+        "files/scaffolding-alternatives.md",
+        "files/recipes.md",
+        "files/summary.md"
+    ],
+    
+    "aliases": {
+        "resources": "github://DamonOehlman/talk-resources/"
+    },
+    
+    "theme": "dark",
+    "plugins": {
+        "code": {
+            "style": "zenburn"
+        }
+    },
+    
+    "resources": [
+        "css/reveal-tweaks.css <= resources!css/reveal-tweaks.css",
+        "js/bgimage-helper.js <= resources!js/bgimage-helper.js",
+        "css/bgimage-helper.css <= resources!css/bgimage-helper.css"
+    ]
+}
