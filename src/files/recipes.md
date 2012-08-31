@@ -32,6 +32,9 @@ use: google-analytics(code=UA-XXXXX-X)
 </header>
 ```
 
+<small>A great suggestion from [@johnallsopp](http://twitter.com/johnallsopp) was to replace the `<use>lib</use>` tag
+with potentially a `<link rel="use">lib</link>` tag instead.</small>
+
 ---
 
 ## Then we merge?
